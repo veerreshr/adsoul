@@ -23,6 +23,7 @@ function AppList() {
         {appList &&
           appList.map((a) => (
             <AppCard
+              key={a.id}
               id={a.id}
               appName={a.appName}
               publisherName={a.publisherName}

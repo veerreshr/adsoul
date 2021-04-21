@@ -50,19 +50,19 @@ function AppCard({
       <div className="stats">
         <div className="stat">
           <div role="doc-subtitle">Revenue</div>
-          <h2 class="card-heading">{formatter(revenue)}</h2>
+          <h2 className="card-heading">{formatter(revenue)}</h2>
         </div>
         <div className="stat">
           <div role="doc-subtitle">Ad Requests</div>
-          <h2 class="card-heading">{formatter(adRequest)}</h2>
+          <h2 className="card-heading">{formatter(adRequest)}</h2>
         </div>
         <div className="stat">
           <div role="doc-subtitle">Ad Response</div>
-          <h2 class="card-heading">{formatter(adResponse)}</h2>
+          <h2 className="card-heading">{formatter(adResponse)}</h2>
         </div>
         <div className="stat">
           <div role="doc-subtitle">Impressions</div>
-          <h2 class="card-heading">{formatter(impressions)}</h2>
+          <h2 className="card-heading">{formatter(impressions)}</h2>
         </div>
       </div>
     </div>
